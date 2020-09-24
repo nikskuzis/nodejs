@@ -15,7 +15,7 @@ Acceptance criteria:
 * To reduce code in main js file, move routes logic to a separate .js file and export code as method, which would be used in main javascript file - 38. video
 */
 const http = require('http');
-
+const routes = require('./routes');
 
 
 const server = http.createServer((req, res) =>{

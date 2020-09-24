@@ -1,0 +1,24 @@
+{
+  "name": "node-basics",
+  "version": "1.0.0",
+  "description": "Node.js",
+  "main": "case2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node case2.js",
+    "vtdt-server": "node case2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikskuzis/nodejs.git"
+  },
+  "author": "Niks Kuzis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikskuzis/nodejs/issues"
+  },
+  "homepage": "https://github.com/nikskuzis/nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
